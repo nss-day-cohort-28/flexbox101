@@ -1,0 +1,37 @@
+body {
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+
+.nav li {
+  margin-right: 10px;
+  /* border: 1px solid red; */
+}
+
+section {
+  /* border: 1px solid green */
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 200px;
+}
+
+.animal {
+  flex-basis: 25%;
+  /* display: flex; */
+}
+
+.animal--dog {
+  /* border: 1px solid blue; */
+  flex-basis: 20%
+}
